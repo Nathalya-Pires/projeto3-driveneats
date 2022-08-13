@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.app {
+    max-width: 414px;
+    margin: 0 auto;
+}
+
+.topo-app {
+    height: 92px;
+    background-color: #CF2B2B;
+    margin-bottom: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.26);
+}
+
+.topo-app h1 {
+    font-family: righteous;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 54.63px;
+    letter-spacing: -1.2%;
+    color: #FFFFFF;
+    padding: 5px 145px 0px 21px;
+
+
+}
+
+.topo-app h2 {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+    color: #FFFFFF;
+    padding: 0px 145px 18px 21px;
+}
+
+.corpo-app {
+    background-color: #EEEEEE;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-pedidos {
+    display: flex;
+    overflow: scroll;
+}
+
+.pedido {
+    width: 172px;
+    height: 216px;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    
+}
+
+.base-app {
+    width: 414px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+
+    background-color: #FFFFFF;
+
+}
+
+.botao {
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    background-color: #CBCBCB;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    letter-spacing: 1.8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pedido img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+}
+
+.pedido h1 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #333333;
+}
+
+.pedido h2 {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17.58px;
+    color: #A6A6A6;
+}
+
+.pedido h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    color:#000000;
+}
