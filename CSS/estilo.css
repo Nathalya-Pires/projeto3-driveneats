@@ -45,56 +45,40 @@ body {
 .menu {
     display: flex;
     flex-direction: column;
+    margin-bottom: 69px;
 }
+
+.tipo-pedido{
+    font-family: Righteous;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32.28px;
+    letter-spacing: 1.8%;
+    color: #333333;
+}   
 
 .container-pedidos {
     display: flex;
-    overflow: scroll;
+    overflow-x: scroll;
+    
 }
 
 .pedido {
     width: 172px;
-    height: 216px;
-    justify-content: space-between;
+    height: 180px;
+    border-radius: 9px;
     background-color: #FFFFFF;
+    padding: 18px;
     
 }
 
-.base-app {
-    width: 414px;
-    height: 92px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    bottom: 0;
-    z-index: 1;
 
-    background-color: #FFFFFF;
-
-}
-
-.botao {
-    width: 364px;
-    height: 61px;
-    border-radius: 50px;
-    background-color: #CBCBCB;
-    font-family: roboto;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23.44px;
-    letter-spacing: 1.8%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.pedido img {
+.imagens img {
     width: 144px;
     height: 87px;
     border-radius: 4px;
+    object-fit: cover;
+    
 }
 
 .pedido h1 {
@@ -116,4 +100,33 @@ body {
     font-size: 16px;
     line-height: 18.75px;
     color:#000000;
+}
+
+.base-app {
+    width: 414px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: #FFFFFF;
+}
+
+.botao {
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    background-color: #CBCBCB;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    letter-spacing: 1.8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
 }
