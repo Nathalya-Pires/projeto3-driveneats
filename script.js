@@ -47,6 +47,7 @@ function fecharPedido() {
     if (food !== undefined) {
         if (drink !== undefined) {
             if (sweet !== undefined) {
+                
                 const desabilita = document.querySelector('.botao');
                 desabilita.classList.add('escondido');
 
