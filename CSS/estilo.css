@@ -67,9 +67,10 @@ body {
 }   
 
 .container-pedidos {
+    margin: 0px 0px 27px 11px;
     display: flex;
     overflow-x: scroll;
-    margin: 0px 0px 27px 11px;  
+    ::-webkit-scrollbar{display:none;}
 }
 
 .pedido {
