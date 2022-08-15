@@ -9,8 +9,6 @@ let nomeDrink;
 let nomeSweet;
 let precoTotal;
 
-//faz um commit, esses comentarios ai em baixo pode dexair ne pode
-
 function marcadorFood(botao) {
     const pedidoEscolhido = document.querySelector('.pratos .selecionado');
     if (pedidoEscolhido !== null) {
