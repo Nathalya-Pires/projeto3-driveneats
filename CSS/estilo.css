@@ -8,13 +8,18 @@ body {
 .app {
     max-width: 414px;
     margin: 0 auto;
+    
 }
 
 .topo-app {
     height: 92px;
+    width: 414px;
     background-color: #CF2B2B;
     margin-bottom: 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.26);
+    position: fixed;
+    z-index: 1;
+    
 }
 
 .topo-app h1 {
@@ -40,12 +45,14 @@ body {
 
 .corpo-app {
     background-color: #EEEEEE;
+    padding: 123px 0px 18px 0px;
 }
 
 .menu {
     display: flex;
     flex-direction: column;
     margin-bottom: 69px;
+    
 }
 
 .tipo-pedido{
@@ -71,7 +78,6 @@ body {
     padding: 18px;
     
 }
-
 
 .imagens img {
     width: 144px;
@@ -129,4 +135,8 @@ body {
     justify-content: center;
     text-align: center;
     color: #FFFFFF;
+}
+
+.selecionado{
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
 }
